@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
             intent.putExtra("id",str_Id);
             startActivity(intent);
         }else if(item.getItemId() == R.id.mnuLogin){
-            Intent intent = new Intent(MainActivity.this,RegisterActivity.class);
+            Intent intent = new Intent(MainActivity.this,SignInActivity.class);
             startActivity(intent);
         }else if(item.getItemId() == R.id.mnuRegister){
             Intent intent = new Intent(MainActivity.this,RegisterActivity.class);
